@@ -1,6 +1,6 @@
 # 项目介绍 #
 基于 [weibo\_senti_100k.csv](https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/weibo_senti_100k/intro.ipynb) 数据集，本项目分别使用朴素贝叶斯、逻辑回归、LSTM、CNN、BERT等模型进行了实验，其中涉及的词向量包括one-hot、Word2Vec、Glove等。对于Word2Vec和Glove词向量的构建过程，本项目也提供了相关代码。项目中模型的训练运行脚本为train.sh，如bert\_train.sh，模型的测试运行脚本为test.sh，如bert\_test.sh。此外，本项目也会给出如何将训练好的BERT模型以服务的形式进行部署，以满足商业应用中的实时性需求。针对具体模型的使用，请读者查看\*\_README.md文件。希望通过本项目的学习，读者能够对情感分析中常用的模型技术有进一步的理解。
-#环境准备 #
+# 环境准备 #
 bert-base==0.0.7<br>
 fire==0.3.1<br>
 gensim==3.8.1<br>
